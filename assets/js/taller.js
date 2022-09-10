@@ -11,7 +11,7 @@
 
         const palabra = document.getElementById('palabra').value;
         const result = palabra.length;
-        alert(`La longitud de las palabra digitada "${palabra}" es ${result}`);
+        alert(`La longitud de las palabra digitada ${palabra} es ${result}`);
 
     });
   
@@ -21,7 +21,7 @@
     mayuscula.addEventListener('click', ()=>{
         const palabra = document.getElementById('palabra').value;
         const result = palabra.toUpperCase();
-        alert(`la mayuscula de la palabra"${palabra}" a mayúscula es "${result}"`);
+        alert(`La matuscula de la palabra digitada ${palabra} a mayúscula es ${result}`);
     });
 
 
